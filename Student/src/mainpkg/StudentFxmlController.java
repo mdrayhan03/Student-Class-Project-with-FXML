@@ -77,6 +77,8 @@ public class StudentFxmlController implements Initializable {
             getIDTextField.clear() ;
             getNameTextField.clear() ;
             getCgpaTextField.clear() ;
+            wrongIDLable.setText("");
+            wrongCgpaLable.setText("") ;
         }
     }
 
